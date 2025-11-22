@@ -19,7 +19,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backface-visibility: 20%;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -43,6 +42,9 @@ body {
     border-radius: .5rem;
     justify-content: center;
     width: 300px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    align-content: center;
 }
 
 .logo img {
@@ -86,4 +88,68 @@ body {
 .signs p:nth-child(1){
     border-bottom: 2px solid #12C64B;
     padding-bottom: .3rem;
+}
+
+.form-input input{
+    padding: .8rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    justify-content: center;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+}
+
+.form-input input::placeholder {
+    color: rgba(128, 128, 128, 0.493);
+    font-weight: bold;
+}
+
+.consent {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.consent p{
+    color: white;
+    font-family: "Gotham-light";
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.consent input {
+    border: none;
+    outline: none;
+}
+.consent input:checked {
+    accent-color: #12C64B;
+}
+
+#sign-in-btn {
+    padding: .8rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #12C64B;
+    font-family: "Gotham-light";
+    font-weight: bold;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.199);
+}
+
+.forgot-password {
+    text-align: center;
+    color: gray;
+    font-family: "Gotham-light";
+    font-weight: 600;
+    font-size: .8rem; 
+    cursor: pointer;
 }
