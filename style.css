@@ -32,7 +32,7 @@ body {
     position: absolute;
     border-radius: .5rem;
     justify-content: center;
-    width: max-content;
+    /* width: ; */
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
     align-items: center;
     align-content: center;
