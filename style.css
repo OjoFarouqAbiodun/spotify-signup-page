@@ -156,9 +156,8 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .container {
-        margin: 5rem;
-        width: 45ch;
+        margin: 1rem;
     }
 }
